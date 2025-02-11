@@ -11,7 +11,7 @@ public class WelcomeController {
 	@GetMapping
 	public String welcome() {
 		System.out.println("Azure service working");
-		return "Azure service working";
+		return "Congratulations !! Azure service working .";
 	}
 
 }
